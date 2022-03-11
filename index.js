@@ -1,7 +1,7 @@
-var dt                  = 1/120; // Physics delta time
-var gravity             = 200;   // Gravity on each particle
-var airDrag             = 0.8;   // Damping on velocity of particles
-var iterations          = 1;     // Speculative solver iterations
+var dt                  = 1/120; // Physics delta time default: 1/120
+var gravity             = 200;   // Gravity on each particle default: 200
+var airDrag             = 0.05;   // Damping on velocity of particles default: 0.8
+var iterations          = 1;     // Speculative solver iterations default: 1
 var maxContactImpulse   = 100000;
 var maxParticleVelocity = 500;
 
